@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -22,7 +24,7 @@ body {
 .logo-placeholder {
     margin-right: auto;
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
@@ -69,7 +71,7 @@ a {
 
 .main-text {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 700;
     color: #F9FAF8;
     margin: 0;
 }
@@ -97,12 +99,12 @@ a {
     align-items: center;
     gap: 16px;
     padding-top: 15px;
-    padding-bottom: 75px;
+    padding-bottom: 60px;
 }
 
 .info-heading {
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 700;
     color: #1F2937;
 }
 
@@ -116,7 +118,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 160px;
+    width: 170px;
     height: 320px;
 }
 
@@ -138,8 +140,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 150px;
-    padding-bottom: 122px;
+    padding-top: 130px;
+    padding-bottom: 110px;
 }
 
 .quote-text {
@@ -147,7 +149,7 @@ a {
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
-    width: 830px;
+    width: 790px;
     margin: 0;
 }
 
@@ -182,7 +184,7 @@ a {
 .cta-heading {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
     margin: 0;
 }
 
@@ -199,4 +201,15 @@ a {
     border-radius: 8px;
     border: 2px solid white;
     padding: 8px 36px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px;
+}
+
+.footer-text {
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 18px;
 }
